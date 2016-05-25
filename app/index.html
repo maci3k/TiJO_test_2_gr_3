@@ -8,9 +8,9 @@
 <body ng-app="fifaApp" ng-controller="FifaCtrl as fifa">
 <div class="container">
     <div class="page-header">
-        <h1>Gr 3</h1>
+        <h1 id="MKHeader">Gr 3</h1>
     </div>
-    <input class="form-control" value="Test"/>
+    <input class="form-control" value="Test" id="MKInput"/>
     <div>
         <div class="panel-body text-center">
 
@@ -19,11 +19,11 @@
     <div class="jumbotron text-center">
         <div class="btn-group" role="group" aria-label="...">
             <button type="button" class="btn btn-default">Left</button>
-            <button type="button" class="btn btn-default">Middle</button>
+            <button type="button" class="btn btn-default" id="MKMB">Middle</button>
             <button type="button" class="btn btn-default">Right</button>
         </div>
     </div>
-    <div class="alert alert-danger" role="alert">Warning...</div>
+    <div class="alert alert-danger" role="alert" id="MKWarning">Warning...</div>
 </div>
 <script src="bower_components/angular/angular.js"></script>
 <script src="exercise2.js"></script>

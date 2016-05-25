@@ -123,7 +123,7 @@ module.exports = function (grunt)
 
       grunt.registerTask ('serve', ['connect:livereload', 'watch']);
 
-      grunt.registerTask ('verify', ['jshint:verify', 'connect:test', 'protractor_webdriver', 'protractor:firefox']);
+      grunt.registerTask ('verify', ['jshint:verify', 'connect:test', /*'protractor_webdriver',*/ 'protractor:firefox']);
 
       grunt.registerTask ('test:dev', ['karma:dev']);
 
